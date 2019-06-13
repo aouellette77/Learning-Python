@@ -12,11 +12,15 @@
 # June 13 2019
 
 import datetime
-
 Date = datetime.datetime.now()
+
+# Input from user for Name and Age
 Name = input("What is your full name: ")
 Age = int(input("What is your current age: "))
+
+# Extra on how many copies of the message do you want
 Copies = int(input("How many copies of the message do you want to see: "))
+
 FutureYear = (Date.year - Age) + 100
 
 print(f"\nHello, {Name}.  You will be 100 years old in {FutureYear}!\n" * Copies)
