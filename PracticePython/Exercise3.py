@@ -10,7 +10,7 @@
 #       list a that are smaller than that number given by the user.
 
 # Adam Ouellette
-# Exercise 2 http://www.practicepython.org
+# Exercise 3 http://www.practicepython.org
 # June 13 2019
 
 # List of number to check in program
