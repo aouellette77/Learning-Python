@@ -22,5 +22,4 @@ Age = int(input("What is your current age: "))
 Copies = int(input("How many copies of the message do you want to see: "))
 
 FutureYear = (Date.year - Age) + 100
-
 print(f"\nHello, {Name}.  You will be 100 years old in {FutureYear}!\n" * Copies)
