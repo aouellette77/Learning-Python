@@ -14,6 +14,16 @@
 Number = int(input("Please enter in a number: "))
 
 if Number % 2 == 0:
-    print(f"The number {Number} is a even number")
-else:
+    if Number % 4 == 0:
+        print(f"The number {Number} is a multiple of 4")
+    else:
+        print(f"The number {Number} is a even number")
+elif Number % 2 != 0:
     print(f"The number {Number} is a odd number")
+
+Num = int(input("\n\nPlease enter in a number to check: "))
+Check = int(input("Please enter in a number to divide by: "))
+if Num % Check == 0:
+    print(f"{Num} divides evenly by, {Check}")
+else:
+    print(f"{Num} does not divide by, {Check}")
