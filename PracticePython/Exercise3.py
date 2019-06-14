@@ -16,15 +16,18 @@
 # List of number to check in program
 List = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ListLess = []
-# CheckNum = int(input("What numbers do you want to check from list to be smaller than: "))
+CheckNum = int(input("What numbers do you want to check from list to be smaller than: "))
 
 
 # For loop that will check each number in the list for less than 5 and print the resolute
-print([element for element in List if element < 5])
+# print([element for element in List if element < CheckNum])
 
-# for element in List:
-#    if element < CheckNum:
-#        ListLess.append(element)
+for element in List:
+    if element < CheckNum:
+        ListLess.append(element)
 
-#for element in ListLess:
-#    print(element)
+for element in ListLess:
+    print(element)
+
+print(f"\n\nList Print: {List}")
+print(f"ListLess Print: {ListLess}")
