@@ -13,3 +13,16 @@
 # Exercise 2 http://www.practicepython.org
 # June 13 2019
 
+# List of number to check in program
+List = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+ListLess = []
+CheckNum = int(input("What numbers do you want to check from list to be smaller than: "))
+
+
+# For loop that will check each number in the list for less than 5 and print the resolute
+for element in List:
+    if element < CheckNum:
+        ListLess.append(element)
+
+for element in ListLess:
+    print(element)
