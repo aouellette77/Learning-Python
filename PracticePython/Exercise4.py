@@ -7,3 +7,17 @@
 # June 13 2019
 
 UserNumber = int(input("Pick a number to see the divisors of that number: "))
+
+# list needs to start with number 1 and need to have 1 added to the the number inputted so we will use the number ent
+ListRange = list(range(1, UserNumber+1))
+
+# print list of numbers to test
+# print(ListRange)
+
+# stored list of numbers that divide with no remainders
+DivisorList = []
+
+for number in ListRange:
+    if UserNumber % number == 0:    # Checking user input number to the numbers in ListRange for no remainder
+        DivisorList.append(number)  # Append the DivisorList with numbers that divide with no remainder
+print(DivisorList)
